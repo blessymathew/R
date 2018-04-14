@@ -21,6 +21,7 @@ x
 x<-c(3,5,1,10,12,6)
 x
 x[x%in%1:5]<-0
+x[x<=5]<-0
 x
 #Use the Week 1 Quiz Data Set to answer questions 11-20.
 c<-read.csv("C:/Users/blessy/Desktop/Personal/DataScience/Course-2/Practice/hw1_data.CSV")
